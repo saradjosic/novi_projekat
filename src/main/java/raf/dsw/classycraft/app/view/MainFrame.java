@@ -9,6 +9,7 @@ public class MainFrame extends JFrame{
     private MainFrame() {
         initialise();
     }
+    //promena
     public void initialise(){
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension screenSize = toolkit.getScreenSize();
