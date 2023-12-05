@@ -9,9 +9,9 @@ public class ExitAction extends AbstractClassyAction{
         putValue(ACCELERATOR_KEY, KeyStroke.getKeyStroke(
                 KeyEvent.VK_4, ActionEvent.ALT_MASK
         ));
-        putValue(SMALL_ICON,load("images/img_1.png"));
-        putValue(NAME,"Exit");
-        putValue(SHORT_DESCRIPTION,"Exit");
+        putValue(SMALL_ICON,loadIcon("images/img_1.png"));
+        putValue(NAME,"Exit");//kada ubacimo u toolBar
+        putValue(SHORT_DESCRIPTION,"Exit");//kada predjemo misem
     }
 
     @Override //to je listener

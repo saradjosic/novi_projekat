@@ -1,11 +1,16 @@
 package raf.dsw.classycraft.app.view;
 
-import javax.swing.*;
-import java.awt.*;
 import lombok.Getter;
 import lombok.Setter;
+import raf.dsw.classycraft.app.controller.ActionManager;
+
+import javax.swing.*;
+import java.awt.*;
+@Getter
+@Setter
 public class MainFrame extends JFrame{
     private static MainFrame instance=null;
+    private ActionManager actionManager;
     private MainFrame() {
         initialise();
     }
